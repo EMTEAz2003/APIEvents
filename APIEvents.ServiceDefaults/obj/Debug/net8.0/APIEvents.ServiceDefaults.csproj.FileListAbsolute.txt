@@ -1,0 +1,14 @@
+C:\Users\Emteyaz\source\repos\APIEvents\APIEvents.ServiceDefaults\bin\Debug\net8.0\APIEvents.ServiceDefaults.deps.json
+C:\Users\Emteyaz\source\repos\APIEvents\APIEvents.ServiceDefaults\bin\Debug\net8.0\APIEvents.ServiceDefaults.runtimeconfig.json
+C:\Users\Emteyaz\source\repos\APIEvents\APIEvents.ServiceDefaults\bin\Debug\net8.0\APIEvents.ServiceDefaults.dll
+C:\Users\Emteyaz\source\repos\APIEvents\APIEvents.ServiceDefaults\bin\Debug\net8.0\APIEvents.ServiceDefaults.pdb
+C:\Users\Emteyaz\source\repos\APIEvents\APIEvents.ServiceDefaults\obj\Debug\net8.0\APIEvents.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Users\Emteyaz\source\repos\APIEvents\APIEvents.ServiceDefaults\obj\Debug\net8.0\APIEvents.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emteyaz\source\repos\APIEvents\APIEvents.ServiceDefaults\obj\Debug\net8.0\APIEvents.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\Emteyaz\source\repos\APIEvents\APIEvents.ServiceDefaults\obj\Debug\net8.0\APIEvents.ServiceDefaults.AssemblyInfo.cs
+C:\Users\Emteyaz\source\repos\APIEvents\APIEvents.ServiceDefaults\obj\Debug\net8.0\APIEvents.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\Emteyaz\source\repos\APIEvents\APIEvents.ServiceDefaults\obj\Debug\net8.0\APIEvents.ServiceDefaults.dll
+C:\Users\Emteyaz\source\repos\APIEvents\APIEvents.ServiceDefaults\obj\Debug\net8.0\refint\APIEvents.ServiceDefaults.dll
+C:\Users\Emteyaz\source\repos\APIEvents\APIEvents.ServiceDefaults\obj\Debug\net8.0\APIEvents.ServiceDefaults.pdb
+C:\Users\Emteyaz\source\repos\APIEvents\APIEvents.ServiceDefaults\obj\Debug\net8.0\APIEvents.ServiceDefaults.genruntimeconfig.cache
+C:\Users\Emteyaz\source\repos\APIEvents\APIEvents.ServiceDefaults\obj\Debug\net8.0\ref\APIEvents.ServiceDefaults.dll
