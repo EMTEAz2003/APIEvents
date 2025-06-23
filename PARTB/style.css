@@ -1,0 +1,47 @@
+﻿body {
+    direction: rtl;
+    font-family: Arial;
+    background: #f6f6fa;
+    margin: 0;
+    padding: 2em;
+}
+
+h1, h2 {
+    color: #1d5eab;
+}
+
+section {
+    margin-bottom: 2em;
+    background: #fff;
+    border-radius: 8px;
+    padding: 1em;
+    box-shadow: 0 2px 8px #0001;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+}
+
+th, td {
+    padding: 0.5em;
+    border: 1px solid #bcd;
+}
+
+button {
+    background: #1d5eab;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.3em 1em;
+}
+
+    button:hover {
+        background: #1a468a;
+    }
+#createEventMsg {
+    margin-top: 1em;
+    font-weight: bold;
+    min-height: 1.5em;
+}

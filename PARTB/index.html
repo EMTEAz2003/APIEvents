@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <title>ניהול אירועים</title>
+    <style>
+        body {
+            direction: rtl;
+            font-family: Arial;
+            background: #f6f6fa;
+            margin: 0;
+            padding: 2em;
+        }
+
+        h1, h2 {
+            color: #1d5eab;
+        }
+
+        section {
+            margin-bottom: 2em;
+            background: #fff;
+            border-radius: 8px;
+            padding: 1em;
+            box-shadow: 0 2px 8px #0001;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1em;
+        }
+
+        th, td {
+            padding: 0.5em;
+            border: 1px solid #bcd;
+        }
+
+        button {
+            background: #1d5eab;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            padding: 0.3em 1em;
+        }
+
+            button:hover {
+                background: #1a468a;
+            }
+
+        #createEventMsg {
+            margin-top: 1em;
+            font-weight: bold;
+            min-height: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>מערכת ניהול אירועים</h1>
+
+    <!-- טופס הוספת/עדכון אירוע -->
+    <section>
+        <h2>צור או עדכן אירוע</h2>
+        <form id="createEventForm">
+            <input type="hidden" id="eventId">
+            <label>שם האירוע: <input type="text" id="eventTitle" required></label><br>
+            <label>תאריך התחלה: <input type="datetime-local" id="eventStart" required></label><br>
+            <label>תאריך סיום: <input type="datetime-local" id="eventEnd" required></label><br>
+            <label>מקסימום משתתפים: <input type="number" id="eventMax" min="1" required></label><br>
+            <label>מיקום: <input type="text" id="eventLocation" required></label><br>
+            <button type="submit" id="eventSubmitBtn">הוסף אירוע</button>
+            <button type="button" id="cancelEditBtn" style="display:none;">ביטול עריכה</button>
+        </form>
+        <div id="createEventMsg"></div>
+    </section>
+
+    <hr>
+
+    <!-- הצגת כל האירועים -->
+    <section>
+        <h2>רשימת אירועים</h2>
+        <button onclick="loadEvents()">רענן אירועים</button>
+        <div id="eventsList"></div>
+    </section>
+    <script src="main.js"></script>
+
+   
+</body>
+</html>
